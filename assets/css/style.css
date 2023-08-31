@@ -1,0 +1,164 @@
+/* IMPOSTAZIONI GENERALI */
+h2 {
+  
+  font-weight: 700;
+}
+
+body {
+  
+  box-sizing: border-box;
+  max-width: 500px;
+  /* background-color: white; */
+  margin: 0 auto;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+/* HEADER */
+header,
+nav ul ,
+h2{
+  margin: 0 auto;
+  text-align: center;
+}
+header{
+  background: rgb(2,0,36);
+  background-color: rgb(58, 165, 189);
+  width: 80%;
+  height: 100%;
+  color: white;
+}
+.logo img{
+   width: 270px;
+   padding: 1.7em;
+}
+header h2{
+  padding: 1.3em;
+  margin-bottom: 0;
+  color: white;
+}
+nav ul{
+  margin-bottom: 1.6em;
+  padding-bottom: 1.6em;
+  
+}
+nav ul li a{
+  color: white;
+  padding: 6px;
+  line-height: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* MAIN */
+
+
+.content,
+ol,
+ul,
+h1,
+.autor-date,
+table,
+.video,
+.e-mail,
+.case {
+  padding: 1em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+  font-weight: 700;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.content + p {
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+}
+.autor-date {
+  align-items: center;
+  display: flex;
+  padding:0  20px 40px 20px;
+  color: rgb(201, 199, 199);
+  
+}
+span {
+  color: rgb(255, 0, 254);
+  font-weight: 700;
+}
+
+.not-ordered li span {
+  border: 1px solid rgb(221, 219, 219);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+}
+
+
+
+/* TABELLE */
+ol {
+  list-style-type: decimal;
+  margin:0  20px 40px 20px;
+}
+ul {
+  list-style-type: disc;
+  margin:0  20px 40px 20px;
+}
+
+
+.tab {
+  margin: 20px 20px 20px 20px;
+}
+table {
+  margin: auto;
+  width: 100%;
+}
+table tr,th{
+    
+  padding: 15px;
+}
+
+thead {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(22,160,161,0.7763480392156863) 0%, rgba(35,71,194,0.9257934952978056) 0%);
+    color: white;
+    text-align: center;
+}
+
+tbody {
+  border-bottom: 2px solid rgba(35,71,194,0.9257934952978056);
+  text-align: center;
+}
+.video iframe {
+  border-radius: 30px;
+}
+
+.case {
+  font-size: 18px;
+  padding: 40px 20px 40px 20px ;
+  margin:0 20px 40px 20px;
+  text-align: start;
+  border: 2px solid rgb(163, 167, 167);
+  background: rgb(222,223,223);
+  
+}
+
+.case a {
+  text-decoration: none;
+}
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  background-color:rgb(53,110,124);
+}
+footer p {
+  text-align: center;
+}
